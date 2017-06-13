@@ -1,3 +1,24 @@
 *{
 	box-sizing: border-box;
 }
+
+.top-nav{
+	background:#36C9C6;
+}
+
+.navbar{
+	display: flex;
+	font-size:25px;
+	padding: 5px 20px;
+	justify-content: space-between;
+}
+
+.nav-toggle{
+	/*margin-left: auto;*/
+cursor: pointer;
+
+}
+
+.nav-list-collapsed {
+	display:none;
+}
